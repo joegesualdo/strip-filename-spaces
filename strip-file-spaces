@@ -12,5 +12,5 @@ for file in "$_cwd""/"*;
 do
   mv "$file" "${file//[[:space:]]}"
 done
-echo 'Whitespaces have been removed from file names.'
+echo "Whitespaces have been removed from file names in directory: $_cwd"
 
